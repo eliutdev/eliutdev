@@ -18,16 +18,36 @@ jobs:
           # Options
           user: reliut-g
           template: classic
-          base: header
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
+          plugin_followup: yes
+          plugin_followup_sections: repositories
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
           plugin_languages: yes
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_nightscout: yes
+          plugin_nightscout_datapoints: 12
+          plugin_nightscout_highalert: 180
+          plugin_nightscout_lowalert: 80
+          plugin_nightscout_urgenthighalert: 250
+          plugin_nightscout_urgentlowalert: 50
+          plugin_nightscout_url: https://example.herokuapp.com
+          plugin_notable: yes
           plugin_stars: yes
-          plugin_stars_limit: 1
-          plugin_stargazers: yes
+          plugin_stars_limit: 2
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 5
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_user: current
+
