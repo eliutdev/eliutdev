@@ -16,7 +16,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: reliut-g
+          user: eliutgon
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
